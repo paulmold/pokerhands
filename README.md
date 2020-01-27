@@ -1,16 +1,17 @@
 ## Requirements
 
-Run these commands:
-
-`git clone ....`
+- Composer
 
 ## How to install
 
 Run these commands:
 
-`git clone ....`
+`git clone git@github.com:paulmold/pokerhands.git`
 
-`run `
-`git clone ....`
-`git clone ....`
-`git clone ....`
+`cd pokerhands`
+
+`cp .env.example .env`
+
+`composer install`
+
+`php artisan migrate`
